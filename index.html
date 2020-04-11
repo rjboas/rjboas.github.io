@@ -13,16 +13,18 @@
     <style>
       body {
         font-family: "Fira Code", monospace;
-        
+        margin: 0;
+        background-color: black;
+        color: white;
+      }
+      
+      .wrapper {
         margin: 0;
         position: absolute;
         top: 50%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        
-        background-color: black;
-        color: white;
       }
       
       p {
@@ -44,8 +46,10 @@
   </head>
   
   <body>
-    <p>Hi, I'm Rohan.</p>
-    <br />
-    <p>Here's my <a href="https://github.com/rjboas">Github</a></p>
+    <div class="wrapper">
+      <p>Hi, I'm Rohan.</p>
+      <br />
+      <p>Here's my <a href="https://github.com/rjboas">Github</a></p>
+    </div>
   </body>
 </html>
