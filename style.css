@@ -60,13 +60,13 @@ h3 {
 }
 
 a {
-    color: DodgerBlue;
+    color: rgb(132, 189, 151);
 }
 
 a:hover {
-    color: Fuchsia;
+    color: rgb(110, 196, 146);
 }
 
 a:visited {
-    color: DeepSkyBlue;
+    color: rgb(47, 161, 91);
 }
