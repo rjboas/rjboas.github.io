@@ -41,10 +41,11 @@ section, article {
 
 article {
     flex-direction: column;
-    border: 0.1rem solid rgb(50, 79, 92);
     padding-top: 0;
     padding-bottom: 0;
     font-style: italic;
+    line-height: 1.4em;
+    text-align: justify;
 }
 
 section * {
@@ -53,6 +54,11 @@ section * {
 
 blockquote {
     font-style: normal;
+    margin-bottom: 0.2em;
+}
+
+blockquote:last-of-type {
+    margin-bottom: 1em;
 }
 
 h3 {
