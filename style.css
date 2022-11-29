@@ -23,6 +23,8 @@ section, article {
     justify-self: center;
     justify-content: space-evenly;
     padding: 1em;
+    background-color: rgb(22, 34, 39);
+    border-radius: 1rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -40,7 +42,6 @@ section, article {
 article {
     flex-direction: column;
     border: 0.1rem solid rgb(50, 79, 92);
-    border-radius: 1rem;
     padding-top: 0;
     padding-bottom: 0;
     font-style: italic;
