@@ -55,6 +55,7 @@ section * {
 blockquote {
     font-style: normal;
     margin-bottom: 0.2em;
+    margin-inline: 1em;
 }
 
 blockquote:last-of-type {
@@ -75,4 +76,27 @@ a:hover {
 
 a:visited {
     color: rgb(47, 161, 91);
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	align-items: stretch;
+	justify-content: space-around;
+}
+
+li {
+    padding: 1em 1em 0.5em 1em;
+    margin-bottom: 1em;
+    border-radius: 1rem;
+    text-shadow: black 0px 0px 5px;
+    flex-basis: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+    li {
+        flex-basis: 100%;
+    }
 }
